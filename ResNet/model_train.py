@@ -169,7 +169,7 @@ if __name__ == "__main__":
     #实例化模型
     model = ResNet18()
     #训练模型
-    train_process = train_model_process(model, train_dataloader, val_dataloader, epochs= 10x)
+    train_process = train_model_process(model, train_dataloader, val_dataloader, epochs= 10)
     #画图
     matplot_loss(train_process)
 
